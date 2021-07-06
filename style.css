@@ -1,31 +1,42 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0%;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
 }
-.container{
-    display: flex;
-    margin-bottom: 100px;
+.container {
+  display: flex;
+  margin-bottom: 150px;
 }
-span{
-    color: #bfff00;
+span {
+  color: #bfff00;
 }
-.half-witdh{
-    width: 50%;
-    padding-left: 5%;
+.half-witdh {
+  width: 50%;
+  padding-left: 2%;
 }
-.half-witdh img{
-    width: 60%;
+.half-witdh img {
+  width: 60%;
 }
-.link-button{
-text-decoration: none;
-background-image: linear-gradient(#ff5050, #ffcccc);
-padding: 10px 40px;
-border-radius: 10px;
-color: antiquewhite;
-font-weight: 700;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(#ff5050, #ffcccc);
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: antiquewhite;
+  font-weight: 700;
 }
-.banner{
-    background-image: url(images/tips-banner.jpg);
-    background-repeat: no-repeat;
-
+.banner {
+  background-image: url(images/tips-banner.jpg);
+  background-repeat: no-repeat;
+}
+.recipes {
+  width: 30%;
+  margin: 5% 5%;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 40px grey;
+}
+.recipes img {
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
 }
