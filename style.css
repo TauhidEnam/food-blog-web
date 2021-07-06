@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0%;
+  font-size: 30px;
 }
 .container {
   display: flex;
@@ -8,6 +9,9 @@ body {
 }
 span {
   color: #bfff00;
+}
+h1 {
+  font-size: 50px;
 }
 .half-witdh {
   width: 50%;
